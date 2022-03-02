@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(254,255,0,255);
+}
+
+ul {
+
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.about {
+
+    background-color: rgba(5,128,0,255) ;
+}
