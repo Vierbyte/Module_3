@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+}
+.container {
+    background-color: #dda1a1;
+    width: 100wh;
+    height: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    height: 200px;
+    width: 800px;
+    background: url(original.gif);
+    background-size: 650px 200px;
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+@font-face {
+    font-family: 90sfont;
+    src: local();
+}
