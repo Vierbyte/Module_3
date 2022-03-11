@@ -2,27 +2,82 @@ body {
     margin: 0;
     padding: 0;
     background-color: purple;
+    background-image: url(O3Bxs16.gif);
 }
 .container {
     background-color: #dda1a1;
-    width: 100wh;
-    height: 100wh;
+    width: 100vw;
+    height: 190px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .text {
     height: 200px;
-    width: 800px;
+    width: 1000px;
     background: url(original.gif);
     background-size: 650px 200px;
     font-size: 120px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    font-family: nintysfont, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.text2 {
+    height: 200px;
+    width: 1000px;
+    background: url(original.gif);
+    background-size: 650px 200px;
+    font-size: 100px;
+    font-family: nike, nintysfont, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+.displayclm {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+}
+.im-size {
+    width: 300px;
+    height: 300px;
+}
+.midnav {
+    font-family: nintysfont;
+    font-size: 5vw;
+    font-size: 5vh;
+    text-align: center;
+    justify-items: center;
+    justify-items: center;
+
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover {
+    text-decoration: none;
+    color: #dda1a1;
+}
+a:active {
+    text-decoration: none;
+    color: aliceblue;
+}
 @font-face {
-    font-family: 90sfont;
-    src: local();
+    font-family: nintysfont;
+    src:url(/Users/vierbytes/DCWork/Module_3/cssworks/Black\ Way.otf)
+}
+@font-face {
+    font-family: nike;
+    src: url(/Users/vierbytes/DCWork/Module_3/cssworks/Nike\ 90.ttf);
 }
