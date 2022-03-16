@@ -1,0 +1,86 @@
+.tabIcon {
+    width: 10px;
+    height: 10px;
+}
+.logoImage {
+    max-width: 60px;
+    max-height: 60px;
+}
+.logoBox {
+    display: flex;
+}
+.logo {
+    text-align: left; font-family: cursive; font-weight: 600; font-size: xx-large; color: #F74900; width: fit-content;
+}
+.mid-nav {
+    justify-content: center;
+    background-color: dimgray;
+    justify-content:space-around;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-decoration: cadetblue;
+}
+.container {
+    justify-content:space-between;
+}
+.rm-btn {
+    padding: 0;
+    margin-top: 5px;
+    text-align: right;
+    justify-content: right;
+}
+a:link {
+    text-decoration: underline;
+    color: #3300AC;
+}
+a:hover {
+    text-decoration: none;
+    color: bisque;
+}
+a:visited {
+    text-decoration: none;
+    color: #3300AC;
+}
+a:active {
+    text-decoration: none;
+    color: crimson;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbarb {
+    overflow: hidden;
+    background-color: rgb(167, 46, 0, .5);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbarb a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbarb a:hover {
+    background: #A72E00;
+    color: black;
+}
+
+.navbarb a.active {
+    background-color: #F74900;
+    color: white;
+}
+
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+}
